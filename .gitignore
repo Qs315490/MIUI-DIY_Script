@@ -1,0 +1,9 @@
+tmp
+rom*
+miui*
+test.sh
+tools/__pycache__
+start.py
+*.jar
+*.exe
+*.dll
