@@ -62,6 +62,7 @@ img_ex(){
 
 # 压缩镜像
 img_comp(){
+	com_find img2simg
 	rm -rf $WORK_DIR/$1_img
 	# 压缩 img 为 simg
 	if [ -f $WORK_DIR/$1.img ];then
@@ -70,6 +71,7 @@ img_comp(){
 		img2simg $WORK_DIR/$1.img $WORK_DIR/$1.simg
 		rm -f $WORK_DIR/$1.img
 	fi
+	com_find img2sdat.py
 	# 压缩 simg 为 sdat
 	if [ -f $WORK_DIR/$1.simg ];then
 		if [ -f $WORK_DIR/$1.new.dat ];then

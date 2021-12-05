@@ -1,6 +1,5 @@
 tmp
-rom*
-miui*
+*.zip
 test.sh
 tools/__pycache__
 start.py
