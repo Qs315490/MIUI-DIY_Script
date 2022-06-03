@@ -14,7 +14,7 @@ del_dataapp=(
 	ThirdAppAssistant # 三方应用异常分析
 )
 
-WORK_DIR="/tmp/miui12.5_diy"
+WORK_DIR="/tmp/miui_diy"
 
 export PATH=$PATH:`pwd`/tools/
 # 检查命令是否存在
